@@ -1,3 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 img {
     max-width: 200px;
+}
+
+header {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    display: flex;
+    gap: 32px;
+}
+header > :first-child {
+    margin-right: auto;
+}
+
+.first-section {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+}
+
+.image-container div img{
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 20px 300px;
+    margin: 100px 0px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    color: white;
+    margin: 80px 160px;
+    border-radius: 8px;
+}
+
+.sign-up button {
+    align-self: center;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
