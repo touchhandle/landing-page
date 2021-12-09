@@ -1,64 +1,117 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #1F2937
 }
 
 img {
     max-width: 200px;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    padding: 4px 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #256cdd;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #52b1ff;
+}
+
 header {
     background-color: #1F2937;
-    color: white;
-    padding: 20px;
+    color: #E5E7EB;
+    padding: 20px 10%;
     display: flex;
     gap: 32px;
+    font-size: 18px;
 }
-header > :first-child {
+
+header .logo {
     margin-right: auto;
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .first-section {
     background-color: #1F2937;
-    color: white;
-    padding: 20px;
+    padding: 100px 10%;
     display: flex;
+    gap: 60px;
 }
 
-h2 {
-    text-align: center;
+.first-section div p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
+
+body > h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
 
 .image-container {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 24px;
     text-align: center;
+    font-weight: 300;
 }
 
 .image-container div img{
     border: 3px solid #3882F6;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 .quote {
+    font-style: italic;
+    font-size: 24px;
     background-color: #E5E7EB;
     color: #1F2937;
-    padding: 20px 300px;
+    padding: 20px 20%;
     margin: 100px 0px;
+}
+
+.quote-attribution {
+    font-style: normal;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
 }
 
 .sign-up {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     background-color: #3882F6;
     color: white;
     margin: 80px 160px;
+    height: 140px;
     border-radius: 8px;
+    text-align: left;
 }
 
 .sign-up button {
     align-self: center;
+    border: 2px solid white;
 }
 
 footer {
