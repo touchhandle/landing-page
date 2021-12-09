@@ -54,6 +54,7 @@ header .logo {
     padding: 100px 10%;
     display: flex;
     gap: 60px;
+    justify-content: center;
 }
 
 .first-section div p {
